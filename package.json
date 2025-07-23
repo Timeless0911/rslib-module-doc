@@ -15,9 +15,9 @@
   "scripts": {
     "build": "rslib build",
     "dev": "rslib build --watch",
-    "dev:doc": "rspress dev",
-    "build:doc": "rspress build",
-    "preview:doc": "rspress preview"
+    "doc": "rspress dev",
+    "doc:build": "rspress build",
+    "doc:preview": "rspress preview"
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.3.4",
