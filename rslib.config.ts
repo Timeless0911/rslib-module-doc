@@ -12,5 +12,8 @@ export default defineConfig({
   output: {
     target: "web",
   },
+  source: {
+    tsconfigPath: "tsconfig.build.json",
+  },
   plugins: [pluginReact()],
 });
