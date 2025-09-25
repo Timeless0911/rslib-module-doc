@@ -25,17 +25,17 @@ pnpm dev
 Start the doc dev server:
 
 ```bash
-pnpm dev:doc
+pnpm doc
 ```
 
 Build the doc for production:
 
 ```bash
-pnpm build:doc
+pnpm doc:build
 ```
 
 Preview the production build locally:
 
 ```bash
-pnpm preview:doc
+pnpm doc:preview
 ```
