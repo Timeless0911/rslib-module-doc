@@ -20,12 +20,12 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.0",
-    "@rslib/core": "^0.13.3",
-    "@rspress/core": "^2.0.0-beta.32",
-    "@rspress/plugin-api-docgen": "^2.0.0-beta.32",
-    "@rspress/plugin-preview": "^2.0.0-beta.32",
-    "@types/node": "^24.5.1",
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@rslib/core": "^0.14.0",
+    "@rspress/core": "^2.0.0-beta.33",
+    "@rspress/plugin-api-docgen": "^2.0.0-beta.33",
+    "@rspress/plugin-preview": "^2.0.0-beta.33",
+    "@types/node": "^24.5.2",
     "@types/react": "^19.1.13",
     "react": "^19.1.1",
     "typescript": "^5.9.2"
@@ -34,5 +34,5 @@
     "react": ">=19.0.0",
     "react-dom": ">=19.0.0"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@10.17.1"
 }
