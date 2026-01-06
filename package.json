@@ -20,19 +20,20 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.1",
-    "@rslib/core": "^0.14.0",
-    "@rspress/core": "^2.0.0-beta.33",
-    "@rspress/plugin-api-docgen": "^2.0.0-beta.33",
-    "@rspress/plugin-preview": "^2.0.0-beta.33",
-    "@types/node": "^24.5.2",
-    "@types/react": "^19.1.13",
-    "react": "^19.1.1",
-    "typescript": "^5.9.2"
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@rslib/core": "^0.19.1",
+    "@rspress/core": "^2.0.0-rc.4",
+    "@rspress/plugin-api-docgen": "^2.0.0-rc.4",
+    "@rspress/plugin-preview": "^2.0.0-rc.4",
+    "@types/node": "^24.10.4",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "react": ">=19.0.0",
     "react-dom": ">=19.0.0"
   },
-  "packageManager": "pnpm@10.17.1"
+  "packageManager": "pnpm@10.27.0"
 }
