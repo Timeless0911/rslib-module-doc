@@ -24,6 +24,9 @@ export default defineConfig({
         startCurrent: true,
       }),
     ],
+    server: {
+      open: true,
+    },
   },
   plugins: [
     pluginApiDocgen({
