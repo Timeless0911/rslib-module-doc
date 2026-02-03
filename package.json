@@ -14,7 +14,9 @@
   ],
   "scripts": {
     "build": "rslib build",
+    "build:rsdoctor": "RSDOCTOR=true rsbuild build",
     "dev": "rslib build --watch",
+    "dev:rsdoctor": "RSDOCTOR=true rsbuild dev",
     "doc": "rspress dev",
     "doc:build": "rspress build",
     "doc:preview": "rspress preview",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.4.5",
+    "@rsdoctor/rspack-plugin": "^1.5.1",
     "@rslib/core": "^0.19.4",
     "@rspress/core": "^2.0.1",
     "@rspress/plugin-api-docgen": "^2.0.1",
