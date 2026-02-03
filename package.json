@@ -16,7 +16,6 @@
     "build": "rslib build",
     "build:rsdoctor": "RSDOCTOR=true rsbuild build",
     "dev": "rslib build --watch",
-    "dev:rsdoctor": "RSDOCTOR=true rsbuild dev",
     "doc": "rspress dev",
     "doc:build": "rspress build",
     "doc:preview": "rspress preview",
